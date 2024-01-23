@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.0-web/css/all.min.css">
+</head>
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-black position-fixed top-0">
+        <div class="container-fluid ">
+          <a class="navbar-brand text-success fs-2 fw-bold mx-3" href="#">Games</a>
+              <div class="d-flex">
+                <input id="search" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button onclick="find()" class="btn btn-success">Search</button>
+              </div>
+        </div>
+      </nav>
+      
+      <div id="box" class="container-xxl p-3 bg-dark"></div>
+      
+      <script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

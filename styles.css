@@ -1,0 +1,20 @@
+.navbar {
+    z-index: 1 !important;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+#box {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 70px !important;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.card {
+    height: 470px !important;
+}
+
